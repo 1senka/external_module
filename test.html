@@ -1,0 +1,19 @@
+<html>
+
+<script src="/dist/browser/browser.min.js"></script>
+
+<body></body>
+<script>
+    const player = new camerakit.Player();
+
+    player.src = 'file:///C:/Users/senka/Desktop/external_cctv/file_example_MP4_640_3MG.mp4'
+    console.log('player', player)
+    // player.pause();
+    player.muted = true;
+    player.width = 1920;
+    player.height = 1080;
+    player.play();
+    document.body.appendChild(player)
+</script>
+
+</html>

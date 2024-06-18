@@ -1,0 +1,26 @@
+<script src="http://localhost:3000/browser/browser.min.js" onload="shoWVideo4()"></script>
+<basis core="component.basiscore.exposer" run="atclient" component="cameraWidgett" method="methodddd"></basis>
+<script>
+
+    var container4 = document.createElement('div')
+
+    function methodddd(com) {
+        const page = com.owner.dc.resolve("widget");
+        page.container.querySelector('[data-bc-widget-body-container]').appendChild(container4)
+        console.log('page.container', page.container)
+    }
+    function shoWVideo4() {
+        const player = new camerakit.Player();
+
+        player.src = 'http://localhost:3000/file_example_MP4_640_3MG.mp4'
+        console.log('player', player)
+        // player.pause();
+        player.muted = true;
+        player.width = 340;
+        player.height = 300;
+        player.play();
+        container4.appendChild(player)
+    }
+
+
+</script>

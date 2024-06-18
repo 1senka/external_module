@@ -1,0 +1,235 @@
+{
+  "menu": {
+    "nodes": [
+      {
+        "title": "مشاهده دوربین ها",
+        "pid": 1
+      }
+    ]
+  },
+  "page": {
+    "1": {
+      "container": "container",
+      "queryString": "",
+      "groups": [
+        {
+          "groupName": "group1",
+          "options": {
+            "repositories": {
+              "bc.grid": "/assets/js/basiscore.grid.component.js"
+            },
+            "settings": {}
+          },
+          "widgets": [
+            {
+              "id": "1",
+              "title": "ویجت دوربین",
+              "name": "userWidget1",
+              "container": "widget",
+              "addToDashboard": false,
+              "x": 0,
+              "y": 0,
+              "w": 10,
+              "h": 4
+            },
+            {
+              "id": "3",
+              "title": "سایدبار",
+              "name": "sidebar",
+              "container": "sidebar",
+              "addToDashboard": false,
+              "x": 10,
+              "y": 0,
+              "w": 2,
+              "h": 6
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "container": "dashboard",
+      "queryString": "",
+      "groups": [
+        {
+          "groupName": "group1",
+          "options": {
+            "repositories": {
+              "bc.grid": "/assets/js/basiscore.grid.component.js"
+            },
+            "settings": {}
+          },
+          "widgets": [
+            {
+              "id": "1",
+              "title": "ویجت دوربین",
+              "name": "userWidget1",
+              "container": "widget",
+              "addToDashboard": false,
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            {
+              "id": "2",
+              "title": "ویجت دوربین",
+              "name": "userWidget1",
+              "container": "widget",
+              "addToDashboard": false,
+              "x": 4,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            {
+              "id": "3",
+              "title": "سایدبار",
+              "name": "sidebar",
+              "container": "sidebar",
+              "addToDashboard": false,
+              "x": 10,
+              "y": 0,
+              "w": 2,
+              "h": 6
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "container": "dashboard",
+      "queryString": "",
+      "groups": [
+        {
+          "groupName": "group1",
+          "options": {
+            "repositories": {
+              "bc.grid": "/assets/js/basiscore.grid.component.js"
+            },
+            "settings": {}
+          },
+          "widgets": [
+            {
+              "id": "1",
+              "title": "ویجت دوربین",
+              "name": "userWidget1",
+              "container": "widget",
+              "addToDashboard": false,
+              "x": 0,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            {
+              "id": "2",
+              "title": "ویجت دوربین",
+              "name": "userWidget1",
+              "container": "widget",
+              "addToDashboard": false,
+              "x": 4,
+              "y": 0,
+              "w": 4,
+              "h": 4
+            },
+            {
+              "id": "4",
+              "title": "ویجت دوربین",
+              "name": "userWidget1",
+              "container": "widget",
+              "addToDashboard": false,
+              "x": 0,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            },
+            {
+              "id": "5",
+              "title": "ویجت دوربین",
+              "name": "userWidget1",
+              "container": "widget",
+              "addToDashboard": false,
+              "x": 4,
+              "y": 4,
+              "w": 4,
+              "h": 4
+            },
+            {
+              "id": "3",
+              "title": "سایدبار",
+              "name": "sidebar",
+              "container": "sidebar",
+              "addToDashboard": false,
+              "x": 10,
+              "y": 0,
+              "w": 2,
+              "h": 6
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "sidebar": {
+    "1": {
+      "nodes": [
+        {
+          "title": "1x",
+          "pid": "1"
+        },
+        {
+          "title": "2x",
+          "pid": 2
+        },
+        {
+          "title": "4x",
+          "pid": 3
+        },
+        {
+          "title": "8x",
+          "pid": 4
+        }
+      ]
+    },
+    "2": {
+      "nodes": [
+        {
+          "title": "1x",
+          "pid": "1"
+        },
+        {
+          "title": "2x",
+          "pid": 2
+        },
+        {
+          "title": "4x",
+          "pid": 3
+        },
+        {
+          "title": "8x",
+          "pid": 4
+        }
+      ]
+    },
+    "3": {
+      "nodes": [
+        {
+          "title": "1x",
+          "pid": "1"
+        },
+        {
+          "title": "2x",
+          "pid": 2
+        },
+        {
+          "title": "4x",
+          "pid": 3
+        },
+        {
+          "title": "8x",
+          "pid": 4
+        }
+      ]
+    }
+  }
+}

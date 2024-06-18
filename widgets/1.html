@@ -1,0 +1,36 @@
+<script src="http://localhost:3000/browser/browser.min.js" onload="showVideo1()"></script>
+<basis core="component.basiscore.exposer" run="atclient" component="cameraWidget" method="methodd"></basis>
+<script>
+
+  var container = document.createElement('div')
+
+  function methodd(com) {
+    console.log('11111')
+    const page = com.owner.dc.resolve("widget");
+    page.container.querySelector('[data-bc-widget-body-container]').appendChild(container)
+    console.log('page.container', page.container)
+  }
+  function showVideo1() {
+    console.log('22222')
+
+    console.log('cameraWidget', cameraWidget)
+    const player = new camerakit.Player();
+    player.setAttribute('controls', '')
+    const pauseBtn = document.createElement('div')
+    pauseBtn.innerHTML = `<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+</svg>
+`
+    player.src = 'http://localhost:3000/file_example_MP4_640_3MG.mp4'
+    console.log('player', player)
+    // player.pause();
+    player.muted = true;
+    player.width = 340;
+    player.height = 300;
+    player.play();
+    container.appendChild(player)
+    container.appendChild(player)
+  }
+
+
+</script>

@@ -1,0 +1,19 @@
+{
+  "name": "external_cctv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "camerakit": "^0.4.1",
+    "express": "^4.19.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "nodemon": "^3.1.3"
+  }
+}
