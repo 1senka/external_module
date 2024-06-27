@@ -3,7 +3,20 @@
     "nodes": [
       {
         "title": "مشاهده دوربین ها",
-        "pid": 1
+        "nodes": [
+          {
+            "title": "دفتر شماره 1 ",
+            "pid": "1"
+          },
+          {
+            "title": "دفتر شماره 2 ",
+            "pid": 2
+          },
+          {
+            "title": "دفتر شماره 3 ",
+            "pid": 3
+          }
+        ]
       }
     ]
   },
@@ -30,7 +43,7 @@
               "x": 0,
               "y": 0,
               "w": 10,
-              "h": 4
+              "h": 6
             },
             {
               "id": "3",
@@ -68,7 +81,7 @@
               "addToDashboard": false,
               "x": 0,
               "y": 0,
-              "w": 4,
+              "w": 5,
               "h": 4
             },
             {
@@ -77,9 +90,9 @@
               "name": "userWidget1",
               "container": "widget",
               "addToDashboard": false,
-              "x": 4,
+              "x": 5,
               "y": 0,
-              "w": 4,
+              "w": 5,
               "h": 4
             },
             {
@@ -91,7 +104,7 @@
               "x": 10,
               "y": 0,
               "w": 2,
-              "h": 6
+              "h": 4
             }
           ]
         }
@@ -112,46 +125,46 @@
           "widgets": [
             {
               "id": "1",
-              "title": "ویجت دوربین",
+              "title": "دوربین شماره 1",
               "name": "userWidget1",
               "container": "widget",
               "addToDashboard": false,
-              "x": 0,
+              "x": 5,
               "y": 0,
-              "w": 4,
+              "w": 5,
               "h": 4
             },
             {
               "id": "2",
-              "title": "ویجت دوربین",
+              "title": "دوربین شماره 2",
               "name": "userWidget1",
               "container": "widget",
               "addToDashboard": false,
-              "x": 4,
+              "x": 0,
               "y": 0,
-              "w": 4,
+              "w": 5,
               "h": 4
             },
             {
               "id": "4",
-              "title": "ویجت دوربین",
+              "title": "دوربین شماره 3",
+              "name": "userWidget1",
+              "container": "widget",
+              "addToDashboard": false,
+              "x": 5,
+              "y": 4,
+              "w": 5,
+              "h": 4
+            },
+            {
+              "id": "5",
+              "title": "دوربین شماره 4",
               "name": "userWidget1",
               "container": "widget",
               "addToDashboard": false,
               "x": 0,
               "y": 4,
-              "w": 4,
-              "h": 4
-            },
-            {
-              "id": "5",
-              "title": "ویجت دوربین",
-              "name": "userWidget1",
-              "container": "widget",
-              "addToDashboard": false,
-              "x": 4,
-              "y": 4,
-              "w": 4,
+              "w": 5,
               "h": 4
             },
             {
@@ -163,7 +176,7 @@
               "x": 10,
               "y": 0,
               "w": 2,
-              "h": 6
+              "h": 8
             }
           ]
         }
@@ -174,60 +187,48 @@
     "1": {
       "nodes": [
         {
-          "title": "1x",
+          "title": "دفتر شماره 1 ",
           "pid": "1"
         },
         {
-          "title": "2x",
+          "title": "دفتر شماره 2 ",
           "pid": 2
         },
         {
-          "title": "4x",
+          "title": "دفتر شماره 3 ",
           "pid": 3
-        },
-        {
-          "title": "8x",
-          "pid": 4
         }
       ]
     },
     "2": {
       "nodes": [
         {
-          "title": "1x",
+          "title": "دفتر شماره 1 ",
           "pid": "1"
         },
         {
-          "title": "2x",
+          "title": "دفتر شماره 2 ",
           "pid": 2
         },
         {
-          "title": "4x",
+          "title": "دفتر شماره 3 ",
           "pid": 3
-        },
-        {
-          "title": "8x",
-          "pid": 4
         }
       ]
     },
     "3": {
       "nodes": [
         {
-          "title": "1x",
+          "title": "دفتر شماره 1 ",
           "pid": "1"
         },
         {
-          "title": "2x",
+          "title": "دفتر شماره 2 ",
           "pid": 2
         },
         {
-          "title": "4x",
+          "title": "دفتر شماره 3 ",
           "pid": 3
-        },
-        {
-          "title": "8x",
-          "pid": 4
         }
       ]
     }
